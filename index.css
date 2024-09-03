@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+}
+
+.learn {
+    color: rgba(102, 112, 133, 1);
+    ;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+background-color: white;
+z-index: 10;
+top: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 70px;
+}
+
+.nav-barimage {
+    color: rgba(2, 48, 71, 1);
+    font-size: 20.88px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    line-height: 21.98px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.button1 {
+    background-color: rgba(2, 48, 71, 1);
+
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.nav-close {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+a {
+    text-decoration: none;
+    /* color: rgba(102, 112, 133, 1); */
+}
+
+select {
+    border: none;
+}
+
+.high {
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 50px;
+    color: rgba(16, 24, 40, 1);
+    word-wrap: break-word
+}
+
+.high-2 {
+    color: rgba(102, 112, 133, 1);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.body {
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.both {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-image {
+    position: absolute;
+    left: -100px;
+    top: 60px;
+    height: 400px;
+    width: 200px;
+    z-index: 1;
+
+}
+
+.second-image {
+    height: 400px;
+    width: 300px;
+}
+
+.first-section {
+    background-color: white;
+
+}
+
+button {
+    border: none;
+    ;
+
+}
+
+.first-button {
+    text-align: center;
+    padding-right: 70px;
+    padding-top: 40px;
+
+}
+
+.second-section {
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    padding-right: 50px;
+}
+
+.penny {
+    text-align: center;
+}
+
+.make {
+    padding-bottom: 10px;
+}
+
+.kobodrop-section {
+    display: grid;
+    grid-template-columns: 60% auto;
+    gap: 20px;
+    padding-top: 50px;
+
+}
+
+.first-make {
+    background-color: rgba(223, 244, 255, 1);
+    height: fit-content;
+    /* width: 500px; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    /* align-items: left; */
+
+    margin-left: 30px;
+
+}
+
+.down {
+    margin-left: 20px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.down-p {
+    color: rgba(0, 0, 0, 0.64);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    /* padding-top: 10px; */
+    max-width: 300px;
+    /* margin-left: 20px; */
+
+}
+
+.third-image {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: -150px;
+    top: 100px;
+
+}
+
+.fourth-image {
+    width: 200px;
+    /* height: 200px; */
+    display: flex;
+    /* position: absolute; */
+    /* position: absolute; */
+    /* bottom: 50px; */
+}
+
+.join {
+    display: flex;
+    position: relative;
+
+}
+
+.your-money {
+    background-color: rgba(234, 236, 255, 1);
+
+}
+
+.frame {
+    width: 50px;
+    height: 100px;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.security {
+    margin-left: 20px;
+}
+
+.third-section {
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.cost-reduction {
+    background-color: rgba(255, 244, 226, 1);
+    margin-left: 30px;
+
+
+
+
+}
+
+.coins {
+    width: 100px;
+    height: 90px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.cost-reduced {
+    padding-left: 50px;
+    margin-top: 20px;
+
+}
+
+.cost {
+    color: #352306;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+
+}
+
+.cost-p {
+    color: rgba(0, 0, 0, 0.64);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    max-width: 300px;
+}
+
+.Send {
+    background-color: rgba(243, 246, 248, 1);
+    display: flex;
+    /* position: relative; */
+
+
+}
+
+.exchange {
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.receive {
+    color: #00112D;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    max-width: 250px;
+}
+
+.maintenance {
+    color: rgba(0, 0, 0, 0.64);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    max-width: 340px;
+}
+
+.backdrop {
+    width: 300px;
+    height: 300px;
+    padding-top: 150px;
+}
+
+.fourth-section {
+    background-color: rgba(249, 250, 251, 1);
+}
+
+.transact {
+    color: #101828;
+    font-size: 36px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 44px;
+    word-wrap: break-word;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.connect {
+    color: #667085;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    max-width: 700px;
+    justify-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
+
+}
+
+.mtn {
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.fifth-section {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.join-other {
+    padding-top: 80px;
+    padding-left: 50px;
+
+}
+
+.thousand {
+    max-width: 576px;
+    font-size: 48px;
+}
+
+.join-button {
+    margin-top: 30px;
+}
+
+.kemi {
+    width: 500px;
+    padding-top: 30px;
+
+
+}
+
+.kemi-join {
+    display: flex;
+    padding-left: 50px;
+    gap: 100px;
+    justify-content: space-between
+}
+
+.truly-last {
+    background: rgba(29, 41, 57, 1);
+    margin-top: 50px;
+    /* width: 1440px; */
+    height: 437px;
+}
+
+.last-section {
+    width: 20px;
+    height: 20px;
+
+}
+
+.final-div {
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.start-last {
+    padding-left: 50px;
+    color: white;
+}
+
+.product {
+    display: flex;
+    padding-left: 50px;
+    gap: 100px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.overview li,
+.resources li {
+    margin-bottom: 20px;
+}
+
+.last-img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+
+}
+
+.get-last {
+    color: white;
+}
+
+.last-move {
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+.overview {
+    list-style-type: none;
+
+}
+
+.resources {
+    list-style-type: none;
+
+}
+
+.rest {
+    color: rgba(152, 162, 179, 1);
+
+}
+
+.abeg-work {
+    display: grid;
+    grid-template-columns: 30% 50% auto
+}
+
+.last-p {
+    color: white;
+}
+
+
+
+.Vector {
+    display: flex;
+    height: 20px;
+    gap: 20px;
+
+}
+
+hr {
+    width: 92%;
+    margin: auto;
+    height: 1px;
+    /* border: .1px solid gainsboro; */
+     background: rgba(71, 84, 103, 1);
+    
+}
+
+.footer-kobodrop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.vector-last {
+
+    gap: 5px;
+}
+
+@media (max-width:768px) {
+ .high{
+  font-size: 40px;  
+ }   
+ 
+ .both {
+    display: block;
+    justify-content: space-between;
+}
